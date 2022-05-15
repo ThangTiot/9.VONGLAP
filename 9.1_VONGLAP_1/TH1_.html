@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DEMO</title>
+</head>
+<body>
+<p id="data"></p>
+</body>
+<script>
+    /// BAI 1:
+    // let text = ""
+    // for (let i = 0; i < 5; i++) {
+    //     text += "The number is: " + i + "<br>"
+    // }
+    // document.getElementById("data").innerHTML = text
+
+    /// BAI 2:
+    let a = prompt("Nhap vao so bat ky: ")
+    let sum = 0
+    while (a<=0) {
+        a = prompt("Hay nhap lai mot so lon hon 0: ")
+    }
+    for (let i=1;i<=a;i++) {
+        sum += i
+    }
+    alert("Tong cac so tu 1 den " + a +" la: " + sum)
+</script>
+</html>
